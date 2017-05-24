@@ -1,2 +1,2 @@
-# fan control - every 10 min
+# fan control - every 5 min
 */5 * * * * /boot/config/scripts/fan_control.sh 2>&1 | /usr/bin/logger -t fan_control
